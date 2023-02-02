@@ -35,6 +35,8 @@ func buildTree(parts []Hashable) []Hashable {
 	}
 }
 
+//func buildTreeverify(bool,error)
+
 type Hashable interface {
 	hash() Hash
 }
